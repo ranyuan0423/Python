@@ -67,3 +67,5 @@ def monitor_resources():
 if __name__ == "__main__":
     monitor_resources()
 
+##./resource_monitor.py & 启动   pkill -f resource_monitor.py 停止
+## tail -f /var/log/resource_monitor.log 日志输出路径
